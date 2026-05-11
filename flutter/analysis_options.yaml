@@ -1,6 +1,1 @@
-include: package:lints/recommended.yaml
-
-linter:
-  rules:
-    non_constant_identifier_names: false
-    sort_child_properties_last: false
+echo analyzer: > analysis_options.yaml && echo   errors: >> analysis_options.yaml && echo     generated_bridge.dart: ignore >> analysis_options.yaml
